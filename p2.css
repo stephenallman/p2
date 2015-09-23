@@ -1,0 +1,49 @@
+body {
+	
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	width: 50%;
+	margin: auto; 
+	background-image:url(p2.Adobe.jpg);
+}
+
+form{
+	margin-top: 10%;
+	width: 99%;
+	
+}
+table{
+	min-width: 95%;	
+	margin: auto;
+	}
+
+fieldset {
+	border: medium solid #4DBE87;
+	background-color: #133952;
+}
+
+
+h1, h3{
+	
+	color:#FFFFFF;
+}
+
+td.result {
+	background-color: #FFFFFF;
+	color: black; 
+	border: medium solid #4DBE87;
+	text-align: center;	
+}
+
+th.title{
+	color: #FFFFFF;
+	text-align: center;
+	}
+	
+td.user{
+	color: #4DBE87;
+	text-align: center;
+	}
+
+h2{
+	color: black; 
+	}
