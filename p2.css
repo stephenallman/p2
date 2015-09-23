@@ -21,12 +21,6 @@ fieldset {
 	background-color: #133952;
 }
 
-
-h1, h3{
-	
-	color:#FFFFFF;
-}
-
 td.result {
 	background-color: #FFFFFF;
 	color: black; 
@@ -35,15 +29,39 @@ td.result {
 }
 
 th.title{
-	color: #FFFFFF;
+	color: #4DBE87;
 	text-align: center;
+	font-size: large;
+	font-weight: bolder;
 	}
 	
 td.user{
 	color: #4DBE87;
 	text-align: center;
+	font-size: large;
+	font-weight: bolder;
 	}
 
-h2{
-	color: black; 
+td.words{
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: large;
+	}
+	
+td.numbers{
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: large;
+	}
+	
+td.symbols{
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: large;
+	}
+	
+td.submit{
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: large;
 	}

@@ -1,6 +1,6 @@
 
 <?php
-error_reporting(-1); # Report all PHP errors
+error_reporting(-1); 
 ini_set('display_errors', 1);
 ?> 
 
@@ -8,16 +8,12 @@ ini_set('display_errors', 1);
 <html>
 <head>
 	<title>P2 Allman</title>
-    
-   
-	<link href="p2.css" rel="stylesheet" type="text/css">
-	
+<link href="p2.css" rel="stylesheet" type="text/css">
 </head>	
 
 <body>
 
 <?php
-
 
 $qWords = $qSymbols = $qNumbers = 0;
 
@@ -41,21 +37,19 @@ function user_input($data){
 
 <fieldset>
 	<table>
-    <tr>
-    <th class = "title" colspan="0"><h1>Password Generator</h1></th>
-    </tr>
     
+    <th class = "title" colspan="2">Password Generator</th></th>
     <tr>
-    <td class = "user" colspan="0"><h1>User Inputs</h1></td>
+    <td class = "user" colspan="2">User Inputs</td>
     </tr>
     
     <tr>
     <td class = "words">
-	<h3>Quantity of Words</h3>
+	Quantity of Words
     </td>
     <td>
-	<select  name= "qWords" value = "">
-    	<optgroup>
+	<select  name= "qWords" >
+    	<optgroup><label></label>
     	<option value = "1">1</option>
         <option value = "2">2</option>
         <option value = "3">3</option>
@@ -70,11 +64,11 @@ function user_input($data){
    </tr> 
    <tr>
     <td class = "numbers">
-	<h3>Quantity of Numbers</h3>
+	Quantity of Numbers
     </td>
     <td>
-	<select  name= "qNumbers" value = "">
-    	<optgroup>
+	<select  name= "qNumbers" >
+    	<optgroup><label></label>
         <option value = "0">0</option>
     	<option value = "1">1</option>
         <option value = "2">2</option>
@@ -91,11 +85,11 @@ function user_input($data){
    </tr>
    <tr>
    <td class = "symbols">
-   <h3>Number of Symbols</h3> 
+   Number of Symbols
    </td>
    <td>
-   <select name= "qSymbols" value = "">
-    	<optgroup>
+   <select name= "qSymbols">
+    	<optgroup><label></label>
          <option value = "0">0</option>
     	<option value = "1">1</option>  
         <option value = "2">2</option>
@@ -110,13 +104,13 @@ function user_input($data){
     </tr>
 
  <tr> 
-	<td><h3>Submit To Generate Secret Code</h3></td>
-	<td class = "submit">
+	<td class = "submit">Submit To Generate Secret Code</td>
+	<td>
 	<input type = "submit" name = "submit" value = "Submit"> 
 	</td>
 </tr>
 <tr>
-<td class = "result" colspan = "0">
+<td class = "result" colspan = "2">
 
 <?php require 'logic.php'; ?>
 
